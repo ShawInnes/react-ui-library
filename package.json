@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "publish": "rollup -c && npm version minor && npm publish",
+    "release": "rollup -c && npm version minor && npm publish",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
